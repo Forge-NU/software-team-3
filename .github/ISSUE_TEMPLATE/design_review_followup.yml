@@ -1,4 +1,4 @@
-name: "📋 Design Review Follow-up"
+name: "Design Review Follow-up"
 description: Action item coming out of a design review
 title: "[Design Review]: "
 labels: ["type:design-review"]

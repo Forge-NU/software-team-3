@@ -1,4 +1,4 @@
-name: "🔧 Task / Chore"
+name: "Task / Chore"
 description: Engineering work that isn't a new feature or a bug (refactors, infra, docs, tooling)
 title: "[Task]: "
 labels: ["type:task"]
