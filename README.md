@@ -3,9 +3,9 @@
 One-line description of what this is and who it's for.
 
 ## Team
-- **Project Lead:**
-- **Members:**
-- **Semester:**
+- **Project Lead:** Lauryn Gong
+- **Members:** Ajay Senthil, Allan Zhen, Arin Rakshe, Binafsha Bakhramova, Caleb Groth, Jayden Sun, Max Eng, Simran Sehgal
+- **Semester:** Fall 2026
 
 ## Why This Exists
 A couple sentences on the problem and the "purpose" behind building it — who has this problem, and why it matters.
