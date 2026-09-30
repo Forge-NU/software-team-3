@@ -1,4 +1,4 @@
-# [Project Name]
+# Husky Marketplace
 
 One-line description of what this is and who it's for.
 
