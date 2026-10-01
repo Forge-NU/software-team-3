@@ -1,4 +1,4 @@
-# Contributing to [Project Name]
+# Contributing to Husky Marketplace
 
 ## Before You Start
 - Every piece of work should have an issue. Open one under **Issues → New Issue** before you start coding — this keeps your PL and the rest of the team in sync on what's being worked on.

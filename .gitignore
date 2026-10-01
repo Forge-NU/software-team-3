@@ -3,13 +3,16 @@ node_modules/
 .pnp
 .pnp.js
 venv/
+.venv/
 __pycache__/
 *.pyc
+.pytest_cache/
 
 # Env / secrets
 .env
 .env.local
 .env.*.local
+!.env.example
 *.pem
 
 # Build output
@@ -17,6 +20,7 @@ __pycache__/
 out/
 dist/
 build/
+coverage/
 
 # Terraform
 *.tfstate
