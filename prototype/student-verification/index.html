@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Husky Marketplace</title>
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+</head>
+
+<body>
+
+  <div class="site-shell">
+
+
+    <!-- create account -->
+
+    <main
+      id="signup-view"
+      class="screen-layout"
+    >
+
+      <section class="visual-panel visual-building">
+
+        <div class="visual-overlay"></div>
+
+        <div class="brand-lockup brand-on-image">
+
+          <div class="brand-mark">
+            N
+          </div>
+
+          <div>
+
+            <div class="brand-name">
+              Husky Marketplace
+            </div>
+
+            <div class="brand-subtitle">
+              Buy. Sell. Move out smarter.
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="visual-copy">
+
+          <span class="eyebrow light">
+            Northeastern student access
+          </span>
+
+          <h1>
+            Join the marketplace built for Northeastern.
+          </h1>
+
+          <p>
+            A student marketplace for buying, selling,
+            and moving things across the Northeastern community.
+          </p>
+
+        </div>
+
+      </section>
+
+
+      <section class="content-panel">
+
+        <div class="content-inner">
+
+          <div class="brand-lockup brand-desktop">
+
+            <div class="brand-mark">
+              N
+            </div>
+
+            <div>
+
+              <div class="brand-name">
+                Husky Marketplace
+              </div>
+
+              <div class="brand-subtitle">
+                Northeastern student marketplace
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="panel-heading">
+
+            <span class="eyebrow">
+              student access
+            </span>
+
+            <h2>
+              Create your account
+            </h2>
+
+            <p>
+              Use your Northeastern email to get started.
+            </p>
+
+          </div>
+
+
+          <form id="signup-form">
+
+            <label for="signup-email">
+              Northeastern email
+            </label>
+
+            <input
+              id="signup-email"
+              type="email"
+              autocomplete="email"
+              placeholder="name@northeastern.edu"
+              required
+            >
+
+
+            <label for="signup-username">
+              Username
+            </label>
+
+            <input
+              id="signup-username"
+              type="text"
+              autocomplete="username"
+              placeholder="Choose a username"
+              maxlength="24"
+              required
+            >
+
+            <div
+              id="username-message"
+              class="field-message"
+            ></div>
+
+
+            <label for="signup-password">
+              Password
+            </label>
+
+            <input
+              id="signup-password"
+              type="password"
+              autocomplete="new-password"
+              placeholder="Create a password"
+              required
+            >
+
+
+            <div class="password-rules">
+
+              <span id="rule-length">
+                8+ characters
+              </span>
+
+              <span id="rule-upper">
+                uppercase
+              </span>
+
+              <span id="rule-lower">
+                lowercase
+              </span>
+
+              <span id="rule-number">
+                number
+              </span>
+
+            </div>
+
+
+            <label for="signup-confirm-password">
+              Confirm password
+            </label>
+
+            <input
+              id="signup-confirm-password"
+              type="password"
+              autocomplete="new-password"
+              placeholder="Re-enter your password"
+              required
+            >
+
+
+            <div
+              id="signup-error"
+              class="error"
+            ></div>
+
+
+            <button
+              id="signup-button"
+              type="submit"
+              class="primary-button"
+            >
+              Create account
+            </button>
+
+          </form>
+
+
+          <div class="switch-view">
+
+            Already have an account?
+
+            <button
+              id="show-login"
+              type="button"
+              class="text-button"
+            >
+              Sign in
+            </button>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+    <!-- sign in -->
+
+    <main
+      id="login-view"
+      class="screen-layout hidden"
+    >
+
+      <section class="visual-panel visual-building">
+
+        <div class="visual-overlay"></div>
+
+
+        <div class="brand-lockup brand-on-image">
+
+          <div class="brand-mark">
+            N
+          </div>
+
+          <div>
+
+            <div class="brand-name">
+              Husky Marketplace
+            </div>
+
+            <div class="brand-subtitle">
+              Northeastern student marketplace
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="visual-copy">
+
+          <span class="eyebrow light">
+            welcome back
+          </span>
+
+          <h1>
+            Pick up where you left off.
+          </h1>
+
+          <p>
+            Sign in to access your Husky Marketplace account.
+          </p>
+
+        </div>
+
+      </section>
+
+
+      <section class="content-panel">
+
+        <div class="content-inner">
+
+          <div class="panel-heading">
+
+            <span class="eyebrow">
+              welcome back
+            </span>
+
+            <h2>
+              Sign in
+            </h2>
+
+            <p>
+              Use your verified Northeastern account.
+            </p>
+
+          </div>
+
+
+          <form id="login-form">
+
+            <label for="login-email">
+              Northeastern email
+            </label>
+
+            <input
+              id="login-email"
+              type="email"
+              autocomplete="email"
+              placeholder="name@northeastern.edu"
+              required
+            >
+
+
+            <label for="login-password">
+              Password
+            </label>
+
+            <input
+              id="login-password"
+              type="password"
+              autocomplete="current-password"
+              placeholder="Password"
+              required
+            >
+
+
+            <div
+              id="login-error"
+              class="error"
+            ></div>
+
+
+            <button
+              id="login-button"
+              type="submit"
+              class="primary-button"
+            >
+              Sign in
+            </button>
+
+          </form>
+
+
+          <div class="switch-view">
+
+            Need an account?
+
+            <button
+              id="show-signup"
+              type="button"
+              class="text-button"
+            >
+              Create one
+            </button>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+    <!-- email confirmation -->
+
+    <main
+      id="confirmation-view"
+      class="screen-layout hidden"
+    >
+
+      <section class="visual-panel visual-street">
+
+        <div class="visual-overlay soft"></div>
+
+
+        <div class="brand-lockup brand-on-image">
+
+          <div class="brand-mark">
+            N
+          </div>
+
+          <div>
+
+            <div class="brand-name">
+              Husky Marketplace
+            </div>
+
+            <div class="brand-subtitle">
+              Email verification
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <section class="content-panel">
+
+        <div class="content-inner centered-panel">
+
+          <div class="icon-circle">
+            ✉
+          </div>
+
+
+          <div class="panel-heading centered-text">
+
+            <span class="eyebrow">
+              one more step
+            </span>
+
+            <h2>
+              Check your email
+            </h2>
+
+            <p>
+              We sent a confirmation link to
+              <strong id="confirmation-email"></strong>.
+            </p>
+
+            <p>
+              Open the email and click the link to verify
+              your account.
+            </p>
+
+          </div>
+
+
+          <button
+            id="confirmation-login"
+            class="secondary-button"
+            type="button"
+          >
+            I already confirmed my email
+          </button>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+    <!-- student verification -->
+
+    <main
+      id="verification-view"
+      class="screen-layout hidden"
+    >
+
+      <section class="visual-panel visual-isec">
+
+        <div class="visual-overlay glass"></div>
+
+
+        <div class="brand-lockup brand-on-image">
+
+          <div class="brand-mark">
+            N
+          </div>
+
+          <div>
+
+            <div class="brand-name">
+              Husky Marketplace
+            </div>
+
+            <div class="brand-subtitle">
+              Student profile
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <section class="content-panel">
+
+        <div class="content-inner wide-inner">
+
+          <div class="panel-heading">
+
+            <span class="eyebrow">
+              student verification
+            </span>
+
+            <h2>
+              Complete your Northeastern profile
+            </h2>
+
+            <p>
+              Your email is verified. Tell us a little about
+              your Northeastern enrollment.
+            </p>
+
+          </div>
+
+
+          <div class="verified-email-banner">
+
+            <div class="verified-check">
+              ✓
+            </div>
+
+            <div>
+
+              <strong>
+                Northeastern Email Verified
+              </strong>
+
+              <span id="verified-email"></span>
+
+            </div>
+
+          </div>
+
+
+          <form id="verification-form">
+
+
+            <div class="form-grid">
+
+              <div>
+
+                <label for="college">
+                  College
+                </label>
+
+                <select
+                  id="college"
+                  required
+                >
+
+                  <option value="">
+                    Select your college
+                  </option>
+
+                  <option value="College of Arts, Media and Design">
+                    College of Arts, Media and Design
+                  </option>
+
+                  <option value="D'Amore-McKim School of Business">
+                    D'Amore-McKim School of Business
+                  </option>
+
+                  <option value="Khoury College of Computer Sciences">
+                    Khoury College of Computer Sciences
+                  </option>
+
+                  <option value="College of Engineering">
+                    College of Engineering
+                  </option>
+
+                  <option value="Bouvé College of Health Sciences">
+                    Bouvé College of Health Sciences
+                  </option>
+
+                  <option value="College of Science">
+                    College of Science
+                  </option>
+
+                  <option value="College of Social Sciences and Humanities">
+                    College of Social Sciences and Humanities
+                  </option>
+
+                  <option value="Mills College at Northeastern University">
+                    Mills College at Northeastern University
+                  </option>
+
+                  <option value="College of Professional Studies">
+                    College of Professional Studies
+                  </option>
+
+                </select>
+
+              </div>
+
+
+              <div>
+
+                <label for="graduation-year">
+                  Expected graduation year
+                </label>
+
+                <select
+                  id="graduation-year"
+                  required
+                >
+
+                  <option value="">
+                    Select year
+                  </option>
+
+                  <option value="2026">
+                    2026
+                  </option>
+
+                  <option value="2027">
+                    2027
+                  </option>
+
+                  <option value="2028">
+                    2028
+                  </option>
+
+                  <option value="2029">
+                    2029
+                  </option>
+
+                  <option value="2030">
+                    2030
+                  </option>
+
+                  <option value="2031">
+                    2031
+                  </option>
+
+                  <option value="2032">
+                    2032
+                  </option>
+
+                  <option value="2033">
+                    2033
+                  </option>
+
+                  <option value="2034">
+                    2034
+                  </option>
+
+                  <option value="2035">
+                    2035
+                  </option>
+
+                  <option value="2036">
+                    2036
+                  </option>
+
+                </select>
+
+              </div>
+
+            </div>
+
+
+            <label for="student-path">
+              How are you enrolled at Northeastern?
+            </label>
+
+            <select
+              id="student-path"
+              required
+            >
+
+              <option value="">
+                Select enrollment path
+              </option>
+
+              <option value="campus">
+                Campus-based student
+              </option>
+
+              <option value="nuin">
+                N.U.in
+              </option>
+
+              <option value="london_scholars">
+                London Scholars
+              </option>
+
+              <option value="nyc_scholars">
+                New York City Scholars
+              </option>
+
+              <option value="nu_immerse">
+                NU Immerse
+              </option>
+
+              <option value="foundation_year">
+                Foundation Year
+              </option>
+
+            </select>
+
+
+            <!-- campus options -->
+
+            <div
+              id="campus-section"
+              class="conditional hidden"
+            >
+
+              <label for="campus">
+                Northeastern campus
+              </label>
+
+              <select id="campus">
+
+                <option value="">
+                  Select campus
+                </option>
+
+                <option value="Arlington, VA">
+                  Arlington, VA
+                </option>
+
+                <option value="Boston, MA">
+                  Boston, MA
+                </option>
+
+                <option value="Burlington, MA">
+                  Burlington, MA
+                </option>
+
+                <option value="Charlotte, NC">
+                  Charlotte, NC
+                </option>
+
+                <option value="London, UK">
+                  London, UK
+                </option>
+
+                <option value="Miami, FL">
+                  Miami, FL
+                </option>
+
+                <option value="Nahant, MA">
+                  Nahant, MA
+                </option>
+
+                <option value="New York City, NY">
+                  New York City, NY
+                </option>
+
+                <option value="Oakland, CA">
+                  Oakland, CA
+                </option>
+
+                <option value="Portland, ME">
+                  Portland, ME
+                </option>
+
+                <option value="Seattle, WA">
+                  Seattle, WA
+                </option>
+
+                <option value="Silicon Valley, CA">
+                  Silicon Valley, CA
+                </option>
+
+                <option value="Toronto, ON">
+                  Toronto, ON
+                </option>
+
+                <option value="Vancouver, BC">
+                  Vancouver, BC
+                </option>
+
+              </select>
+
+            </div>
+
+
+            <!-- n.u.in options -->
+
+            <div
+              id="nuin-section"
+              class="conditional hidden"
+            >
+
+              <div class="form-grid">
+
+                <div>
+
+                  <label for="nuin-year">
+                    N.U.in entry year
+                  </label>
+
+                  <select id="nuin-year">
+
+                    <option value="">
+                      Select year
+                    </option>
+
+                    <option value="2026">
+                      Fall 2026
+                    </option>
+
+                    <option value="2025">
+                      Fall 2025
+                    </option>
+
+                    <option value="2024">
+                      Fall 2024
+                    </option>
+
+                    <option value="2023">
+                      Fall 2023
+                    </option>
+
+                  </select>
+
+                </div>
+
+
+                <div>
+
+                  <label for="nuin-location">
+                    N.U.in location
+                  </label>
+
+                  <select id="nuin-location">
+
+                    <option value="">
+                      Select location
+                    </option>
+
+                    <option value="Czech Republic">
+                      Czech Republic
+                    </option>
+
+                    <option value="Germany">
+                      Germany
+                    </option>
+
+                    <option value="Greece">
+                      Greece
+                    </option>
+
+                    <option value="Ireland">
+                      Ireland
+                    </option>
+
+                    <option value="Italy">
+                      Italy
+                    </option>
+
+                    <option value="Northern Ireland">
+                      Northern Ireland
+                    </option>
+
+                    <option value="Scotland">
+                      Scotland
+                    </option>
+
+                    <option value="Spain">
+                      Spain
+                    </option>
+
+                  </select>
+
+                </div>
+
+              </div>
+
+
+              <div class="info-box">
+                Earlier N.U.in years can continue, but may
+                require manual review until the program
+                location is checked.
+              </div>
+
+            </div>
+
+
+            <div
+              id="verification-error"
+              class="error"
+            ></div>
+
+
+            <button
+              id="verification-button"
+              type="submit"
+              class="primary-button"
+            >
+              Complete verification
+            </button>
+
+          </form>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+    <!-- account complete -->
+
+    <main
+      id="complete-view"
+      class="screen-layout hidden"
+    >
+
+      <section class="visual-panel visual-arena">
+
+        <div class="visual-overlay arena-overlay"></div>
+
+
+        <div class="brand-lockup brand-on-image">
+
+          <div class="brand-mark">
+            N
+          </div>
+
+          <div>
+
+            <div class="brand-name">
+              Husky Marketplace
+            </div>
+
+            <div class="brand-subtitle">
+              Account ready
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <section class="content-panel">
+
+        <div class="content-inner centered-panel">
+
+          <div class="icon-circle success-circle">
+            ✓
+          </div>
+
+
+          <div class="panel-heading centered-text">
+
+            <span class="eyebrow">
+              account ready
+            </span>
+
+            <h2>
+              You’re all set
+            </h2>
+
+            <p>
+              Welcome to Husky Marketplace.
+            </p>
+
+          </div>
+
+
+          <div class="status-list">
+
+            <div class="status-row">
+
+              <span class="small-check">
+                ✓
+              </span>
+
+              <div>
+
+                <strong>
+                  Northeastern Email Verified
+                </strong>
+
+                <p id="complete-email"></p>
+
+              </div>
+
+            </div>
+
+
+            <div
+              id="plausible-status"
+              class="status-row hidden"
+            >
+
+              <span class="small-check">
+                ✓
+              </span>
+
+              <div>
+
+                <strong>
+                  Enrollment Details Plausible
+                </strong>
+
+                <p>
+                  Your selections match a recognized
+                  Northeastern pathway.
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <div
+              id="review-status"
+              class="status-row review-row hidden"
+            >
+
+              <span class="review-symbol">
+                !
+              </span>
+
+              <div>
+
+                <strong>
+                  Enrollment Review Needed
+                </strong>
+
+                <p>
+                  Your email is verified, but your enrollment
+                  information needs manual review.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <button
+            id="signout-button"
+            type="button"
+            class="primary-button"
+          >
+            Sign out
+          </button>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+  </div>
+
+
+  <script
+    type="module"
+    src="app.js"
+  ></script>
+
+</body>
+
+</html>
