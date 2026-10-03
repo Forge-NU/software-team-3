@@ -11,10 +11,10 @@ One-line description of what this is and who it's for.
 A couple sentences on the problem and the "purpose" behind building it — who has this problem, and why it matters.
 
 ## Tech Stack
-- Frontend:
-- Backend:
-- Database:
-- Infra/Deploy:
+- Frontend: Next.js (React + TypeScript)
+- Backend: FastAPI (Python)
+- Database: Supabase (PostgreSQL + Auth)
+- Infra/Deploy: TBD
 
 ## Getting Started
 ```
